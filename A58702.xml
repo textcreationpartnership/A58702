@@ -1,0 +1,879 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Detma basilikē a sermon preached at the Kings prison in the Fleet on the 30th of January, 1681, being the anniversary of the martyrdom of King Charles I, of ever blessed memory.</title>
+            <author>T. S.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 64 KB of XML-encoded text transcribed from 28 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A58702</idno>
+            <idno type="STC">Wing S156</idno>
+            <idno type="STC">ESTC R33576</idno>
+            <idno type="EEBO-CITATION">13523676</idno>
+            <idno type="OCLC">ocm 13523676</idno>
+            <idno type="VID">99951</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A58702)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 99951)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1556:18)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Detma basilikē a sermon preached at the Kings prison in the Fleet on the 30th of January, 1681, being the anniversary of the martyrdom of King Charles I, of ever blessed memory.</title>
+                  <author>T. S.</author>
+               </titleStmt>
+               <extent>[4], 50 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Walter Davies,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Dedication signed: T.S.</note>
+                  <note>Attributed to T.S. by Wing.</note>
+                  <note>Imperfect: print show-through with considerable loss of print.</note>
+                  <note>Reproduction of original in the University of Illinois (Urbana-Champaign Campus). Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  I, --  King of England, 1600-1649 --  Sermons.</term>
+               <term>Sermons, English --  17th century.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-05</date>
+            <label>Colm MacCrossan</label>Sampled and proofread</change>
+         <change>
+            <date>2012-05</date>
+            <label>Colm MacCrossan</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:99951:1"/>
+            <pb facs="tcp:99951:1" rendition="simple:additions"/>
+            <p>Δετμα Βασιλικε: A SERMON Preached at the <hi>Kings Priſon the Fleet,</hi> On the 30<hi rend="sup">th.</hi> of JANUARY, 1681. Being the ANNIVERSARY of the MARTYRDOM OF King Charles I. Of Ever Bleſſed Memory.</p>
+            <q>
+               <bibl>
+                  <hi>Judges 19.30.</hi>
+               </bibl>
+               <p>And it was ſo, that all that ſaw it ſaid there was no ſuch Deed done, nor ſeen, from the day that the Chil<g ref="char:EOLhyphen"/>dren of <hi>Iſrael</hi> came up out of the Land of <hi>Aegypt.</hi>
+               </p>
+            </q>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Walter Davies.</hi> 1682.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:99951:2"/>
+            <pb facs="tcp:99951:2"/>
+            <head>To the Right Noble HENRY, Lord Marqueſs, and Earl of Worceſter, &amp;c.</head>
+            <opener>
+               <salute>My LORD,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>Hey that ſay they make Dedicati<g ref="char:EOLhyphen"/>ons to ſhew their Gratitude to their Patrons: do, in my opinion, at the ſame time ſecretly inſinu<g ref="char:EOLhyphen"/>ate the worth and value of their own Works. Not to acknowledge my Obligations to your Lordſhip, were great want of Breeding; But, to ſay I preſent you this <hi>Sermon</hi> out of Gratitude, were a greater want of modeſty; And I hope I know my ſelf better, than to have any ſuch preſumption.</p>
+            <p>I profeſs ingeniouſly, that the chief reaſon that induc'd me to prefix your Lordſhips Name to this Diſcourſe, was (according to the old uſe of Dedication) to do the thing all the credit it was capable of; and if, at the ſame time, though contrary to my intentions, I have diſpleaſed Your
+<pb facs="tcp:99951:3"/> Lordſhip, in deſiring, or rather violently arrogating your Protection; yet I have this inward conſolation, that my good meaning, (eſpecially with ſo good a man) may, in ſome meaſure, apologize for my Errour.</p>
+            <p>Again, my Lord, every body knows, what both your ſelf and your Noble Family have ſuffer'd for his late Ma<g ref="char:EOLhyphen"/>jeſty of happy Memory; ſo that, what you can poſſibly ſuffer in a diſcourſe of him, will be ſo inconſiderable, that it will ſcarce deſerve the mentioning.</p>
+            <p>God Almighty make us truly ſenſible, and ever mind<g ref="char:EOLhyphen"/>ful of what is paſt, and keep us from ever ſeeing the like again, is the hearty Prayer of,</p>
+            <closer>
+               <salute>My Lord,</salute>
+               <signed>Your Lordſhips moſt Humble and Obedient Servant, <hi>T. S.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:99951:3"/>
+            <head>A SERMON Preached at the King's Priſon, THE FLEET.</head>
+            <epigraph>
+               <q>
+                  <bibl>
+                     <hi>PSAL. 149 8.</hi>
+                  </bibl>
+                  <p>To bind their Kings in Chains, and their Nobles with Fetters of Iron.</p>
+               </q>
+            </epigraph>
+            <p>THere was once a wicked Harangue (for Sermon I dare not call it) delivered from the Pulpit upon theſe words, whereby both the Holy Text, and that ſacred Stool, were deſecrated and prophan'd.</p>
+            <pb n="2" facs="tcp:99951:4"/>
+            <p>A <hi>ſcriptum eſt,</hi> a holy Text, and a damnable Doctrine, hath been one of the Devils Practices, ever ſince he carried our Saviour into the Wilder<g ref="char:EOLhyphen"/>neſs to tempt him.</p>
+            <p>Nor are theſe days of ours the firſt, wherein the Precepts of the God of Love, and the Goſpel of Peace, have been made uſe of for a Trumpet of Tumult and Rebellion.</p>
+            <p>I ſhall not need to tell you how properly, or with what ſucceſs, the <hi>Holder-forth</hi> brought the Text, and his occaſion of it together. I wiſh with all my heart, it were in the power of this diſcourſe in ſome meaſure to expiate his fault, and raiſe as much hatred and deteſtation in the minds of my Hearers, as he did encouragement in thoſe of his towards that never to be mentioned fact, (were it not to deter Poſterity from the like) which gave the ſad occaſion of this days ſolemnity.</p>
+            <p>Wherein we commemorate the unnatural <hi>Murder</hi> and <hi>Martyrdom</hi> of our late lawful Sovereign, and the Lords Anointed, <hi>Charles</hi> the Firſt, of ever bleſ<g ref="char:EOLhyphen"/>ſed memory.</p>
+            <p>And indeed, beſides, that I ſhall right and vin<g ref="char:EOLhyphen"/>dicate this Text, which has been ſo much abus'd, when I conſider how little there is between the
+<pb n="3" facs="tcp:99951:4"/> 
+               <hi>Priſon</hi> and the <hi>Grave,</hi> the <hi>Confinement</hi> and the <hi>Death</hi> of <hi>Kings;</hi> and how ſenſible his Sacred Majeſty was of thoſe wounds, which he received through the ſides of his Loyal Nobility, I know none I could have choſen, that might more fully, and fitly, put us in mind of his ſuffering, s and the Duty of this day.</p>
+            <p>Which is to humble and afflict our Souls under the ſenſe of thoſe manifold crying Sins and Iniqui<g ref="char:EOLhyphen"/>ties, for which God Almighty ſuffered <hi>Rebellion</hi> thus to exalt her ſelf, and juſtifie her <hi>Villanies</hi> and <hi>Murders</hi> by the <hi>ſucceſs,</hi> neither ſparing <hi>Innocent,</hi> nor <hi>Royal Blood;</hi> but, <hi>To bind our Kings in Chains, and our Nobles in Fetters of Iron.</hi>
+            </p>
+            <p>I will not be over-careful (nor do I think it ne<g ref="char:EOLhyphen"/>ceſſary) to reconcile my Text to the preſent occaſi<g ref="char:EOLhyphen"/>on, any further than it may ſerve for a ſad <hi>Remem<g ref="char:EOLhyphen"/>brancer</hi> of this black and fatal day: I will only (in paſſing) mind you of the diſproportion.</p>
+            <p>Whereas the <hi>Kings</hi> ſpoken of here by the Pſal<g ref="char:EOLhyphen"/>miſt, were <hi>Heathens</hi> that knew not God; The <hi>King,</hi> whoſe <hi>hard fate</hi> we remember this day, was a Chriſtian, and ſo truly <hi>the Defender of the Faith,</hi> that, even in the literal ſence, <hi>he reſiſted unto Blood.</hi>
+            </p>
+            <p>And whereas, the <hi>binders</hi> in the Text, <hi>were Saints,
+<pb n="4" facs="tcp:99951:5"/> and Men of Honour; ours were execrable Villains, and the dregs of the People;</hi> Though I cannot but obſerve by the way, that there was a kind of fatality in their calling themſelves <hi>Saints, and the People of the Lord.</hi>
+            </p>
+            <p>The main <hi>Theſis</hi> then, or Pillar of my diſcourſe at this time will be, <hi>the Sufferings of our Royal Mar<g ref="char:EOLhyphen"/>tyr:</hi> But becauſe it is impoſſible to mention them, without ſome reflections on <hi>His Vertue,</hi> and <hi>His Enemies Malice,</hi> theſe two will make our Topicks, or Common-places, three; to wit,</p>
+            <p>
+               <hi>His Majeſties Sufferings,</hi>
+            </p>
+            <p>
+               <hi>His Vertues,</hi> and</p>
+            <p>
+               <hi>His Enemies malicious wickedneſs.</hi>
+            </p>
+            <p>His <hi>Sufferings</hi> were paſſing great, and (for ought I know, or have ever read, if you will except our Saviours) unparallel<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d.</p>
+            <p>His <hi>Patience</hi> and <hi>Vertue,</hi> as I ſhall ſhew you anon, were ſuch too; And leſt any proportion ſhould be wanting in the ſtory, ſuch alſo was the implacable <hi>Malice</hi> and <hi>Wickedneſs</hi> of his Enemies</p>
+            <p>A <hi>Malice,</hi> which, I had almoſt ſaid, was immor<g ref="char:EOLhyphen"/>tal, and notwithſtanding any <hi>Act of Grace</hi> and <hi>In<g ref="char:EOLhyphen"/>dempnity,</hi> ſeems to have out-liv'd both <hi>Pardon and Puniſhments, and the very Actors themſelves.</hi>
+            </p>
+            <pb n="5" facs="tcp:99951:5"/>
+            <p>And, according to the notion of the Philoſopher, to have tranſmigrated and remov'd it ſelf into new Bodies.</p>
+            <p>I do very well know, that this part of my diſ<g ref="char:EOLhyphen"/>courſe (and it may be ſome other beſides) will not pleaſe every body; but I am confident I am guilt<g ref="char:EOLhyphen"/>leſs, and they have themſelves to thank for it, who, in this late conjuncture, have endeavoured (as far as in them lay) to involve us in the ſame miſeries and calamities again.</p>
+            <p>So that, to ſpeak freely and boldly at this time, (whatever they would make us believe,) is ſo far from doing any violence to that his preſent Maje<g ref="char:EOLhyphen"/>ſties moſt Gracious <hi>Act of Oblivion,</hi> that I do verily believe it were a ſin to be ſilent; and I hope the ſea<g ref="char:EOLhyphen"/>ſonable liberty of all the Pulpits in the Kingdom at this preſent, may be one means to keep us from being twice Shipwrackt upon the ſame Rocks; from being undone again, and periſhing a ſecond time by the ſame unhappy method of <hi>binding our Kings in Chains, and our Nobles in Fetters of Iron.</hi>
+            </p>
+            <p>I cannot promiſe you that in this enſuing diſ<g ref="char:EOLhyphen"/>courſe, I ſhall ſo ſtrictly as it may be you may expect, and ſo diſtinctly and ſeverally ſpeak to each of thoſe three Heads or Arguments I have pro<g ref="char:EOLhyphen"/>poſed.</p>
+            <pb n="6" facs="tcp:99951:6"/>
+            <p>For, beſides that grief (eſpecially ſuch as this) is not eaſily confin'd in Rules and Methods; the na<g ref="char:EOLhyphen"/>ture of my Subject, and the circumſtances of the Story, will oblige me to ſpeak of them mixtly and confuſedly, and as they ſhall preſent and ſhew themſelves upon ſeveral occaſions and emergencies.</p>
+            <p>However, that I may obſerve as much of form and order, as the nature of the thing will bear, I will part the following Tragedy, according to the cuſtom of thoſe bloody entertainments, into theſe five Sections.</p>
+            <p>The firſt will contain His Majeſties Sufferings and Troubles before, and to the very time of, the late open Rebellion.</p>
+            <p>The ſecond will ſhew us His Misfortunes and ill ſucceſs, during the time of that Civil War, till he was delivered up by the <hi>Scotch</hi> Army, and confin'd. The third will conſiſt of the ſtory of His Confine<g ref="char:EOLhyphen"/>ment it ſelf.</p>
+            <p>The fourth, of His Sufferings in the Perſons of His Loyal Nobility, and ſuch good Subjects as fol<g ref="char:EOLhyphen"/>lowed His Fortunes in that general calamity.</p>
+            <p>And the fifth and laſt Act, which is the <hi>Cataſtro<g ref="char:EOLhyphen"/>phe,</hi> or winding up of the Tragedy, will tell us the ſad ſtory of His Death and Martyrdom.</p>
+            <pb n="7" facs="tcp:99951:6"/>
+            <p>For which this polluted Land, which drank His Royal Blood, mourns to this day under the Judg<g ref="char:EOLhyphen"/>ments of a righteous Avenger; and for which, and for our ſins, which were the remote cauſe of it, e<g ref="char:EOLhyphen"/>very good man cannot chuſe but have his eyes full of tears, and his mouth full of ſuch lamentations.</p>
+            <p>How are the Mighty fallen? The Crown is fal<g ref="char:EOLhyphen"/>len from our Head, and wo unto us that we have ſinned, wo unto us that we have ſinned, and done ſo wickedly, as <hi>to bind our Kings in Chains, and our Nobles in links of Iron.</hi>
+            </p>
+            <p>Before I enter upon this ungrateful Province, in<g ref="char:EOLhyphen"/>ſtead of a Preface, I will firſt of all ſhew you His late Majeſty, of bleſſed memory, in all his, (ſome<g ref="char:EOLhyphen"/>time,) Pomp and Greatneſs, incircled with all thoſe bleſſings that may make a Monarch happy, and the care of Governing tolerable.</p>
+            <p>That ſo, from thoſe mighty heights and advan<g ref="char:EOLhyphen"/>tages, you may have the fairer light, and take a bet<g ref="char:EOLhyphen"/>ter view of the humble valley of His Tears and Mi<g ref="char:EOLhyphen"/>ſery.</p>
+            <p>It is but too well known, that men in adverſity, meaſure their misfortunes and preſent evils, by all the ſteps and degrees of Honour or Riches, that ever they were poſſeſt of.</p>
+            <pb n="8" facs="tcp:99951:7"/>
+            <q>—Fuimus Troes.</q>
+            <p>Is but a miſerable comfort, to have been happy, to have been rich or honourable, is one of the bittereſt circumſtances and aggravations, that Affliction is capable of.</p>
+            <q>
+               <l>Celſae graviore caſu decidunt turres.</l>
+               <l>High Buildings fall heavy.</l>
+            </q>
+            <p>And for this reaſon, ſays the Son of <hi>Sirach, O Death! how bitter is thy remembrance to a man, that lives at eaſe in his poſſeſſions.</hi>
+            </p>
+            <p>Now I muſt put you in mind, that His Majeſty (who furniſhes us the Subject of this diſcourſe) was once, it may be, one of the happieſt Princes of the World.</p>
+            <p>He was Royally Born and Related: There was ſcarce a Crown in <hi>Europe,</hi> of any great conſidera<g ref="char:EOLhyphen"/>tion, but he had ſome alliance to it.</p>
+            <p>His Perſon and Preſence were pleaſing and Ma<g ref="char:EOLhyphen"/>jeſtick, and every way becoming His Birth and Quality.</p>
+            <p>And then for His Soul, it was fair and Princely
+<pb n="9" facs="tcp:99951:7"/> too, like the Manſion it dwelt in.</p>
+            <p>He was a Perſon of a moſt undaunted Reſolution and Conſtancy, of a preſent and ready Wit, a pro<g ref="char:EOLhyphen"/>found and diſcerning Judgment, and, in a word, a moſt univerſal Knowledge and Learning, witneſs thoſe excellent, thoſe incomparable Writings of His, the beſt Legacy (except His great and holy Example) which he could have left to Poſterity.</p>
+            <p>Writings, that are throughly inform'd, not only with the Majeſty of a King, but alſ<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Reverence of a Divine. <hi>Alas, that ſo much Worth, and Learning, and Goodneſs, ſhould be murdered in one man.</hi>
+            </p>
+            <p>To complete his happineſs, he married a Wife Great and Virtuous like himſelf, by whom God gave him a numerous Iſſue, in ſome of whom we are (and may we be long ſo) bleſt and happy to this very day.</p>
+            <p>In ſhort; a time there was (and pity it was ſo good a time had wings) when this mighty Monarch wanted nothing, that <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> or Induſtry could think <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>f, to <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Crow<gap reason="illegible" resp="#KEYERS" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>; no<g ref="char:EOLhyphen"/>thing that might render him conſiderable, and e<g ref="char:EOLhyphen"/>ſteemed abroad, or honoured and obeyed at home.</p>
+            <p>Yea Rebellion her ſelf, like the ſin of Witchcraft, ſought the ſhadow of the Night, and dwelt in the dark.</p>
+            <pb n="10" facs="tcp:99951:8"/>
+            <p>She crouch'd and crept into corners. She was both afraid and aſhamed of the Light, and as yet durſt work no worſe effects in the Kingdom, than what ſhe could do with thinking and Imagination.</p>
+            <p>Till at length, when the number of our ſins were fulfilled, and when their Cry had juſtly provoked God Almighty to anger, he ſuffered his own, and his anointed<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Enemies, like <hi>Jeſurun, to wax fat, and kick;</hi> and from thinking and wiſhing evil, to fall to murmuring, and running into privare Cabals and Tre<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſonable Meetings: From murmuring and pri<g ref="char:EOLhyphen"/>vate Meetings, to advance as far as undutiful and diſloyal diſcourſes upon the Streets, and running together into inſolent and unwarrantable Tumults, from Tumults to open Rebellion and Slaughter; thence to the Confinement and Impriſonment of his Majeſties Sacred Perſon; ſo to the Plundering, Sequeſtration, and Murdering of His True, and Loyal Subjects; and laſt of all, to that bloody Murder and Martyrdom of the beſt of Kings, under the notion of a Traytor and Malefactor, by a pre<g ref="char:EOLhyphen"/>tended courſe of Law and Juſtice.</p>
+            <p>By the imperfect touches I have given you of his former proſperity, and comparing them with the ſubſequent ſtory of his afflictions, you may take
+<pb n="11" facs="tcp:99951:8"/> ſome kind of meaſures, and give ſome ſort of gueſs at his ſufferings and ſorrows.</p>
+            <p>And when we have trac'd him through all the Tumults, Wars, Impriſonments, and Sufferings that befel him in his Life, and added to them the horrid manner and circumſtances of his Death, you will believe with me, that next our Saviour, He may pretend the ſecond beſt Title to the words of the Holy Ghoſt, <hi>Behold now, and ſee all ye that paſs by, if there be any ſorrow like unto my ſorrow! Behold, and ſee a King</hi> (once indeed a mighty King) <hi>bound in Chains, and his Nobles in Links of Iron</hi>
+            </p>
+            <p>But to begin with his ſtory, according to the order I have propoſed.</p>
+            <p>When His late Majeſty, of Bleſſed Memory, firſt received the Crown, the too happy King<g ref="char:EOLhyphen"/>dom had ſo long enjoyed an uninterrupted Peace, that it was even grown ſick of its own Proſperity, and loſt and ſwallowed up in its own happineſs.</p>
+            <p>We had ſurfeited of our own plenty, and (like thoſe that had eaten too much Honey) could not reliſh our own enjoyments.</p>
+            <p>And, as this is ordinarily the time that men grow wanton and wicked, and forget God; ſo is it very often a forerunner of Rebellion againſt his Anointed.
+<pb n="12" facs="tcp:99951:9"/> And hence is that common obſervation, both in Hiſtory and Policy, that the beſt and moſt indul<g ref="char:EOLhyphen"/>gent Princes, that have the moſt carefully conſulted the Peace and Happineſs of their Subjects, have for the moſt part been worſt obeyed</p>
+            <p>Such was the hard fate of this Good King, whoſe Fatherly Piety and Tenderneſs towards his People, made them (as is common in ill Natures) to forget their duty and Allegiance towards him.</p>
+            <p>The firſt appearance of this Storm was in that fa<g ref="char:EOLhyphen"/>tal unquiet Quarter, the <hi>North.</hi>
+            </p>
+            <p>The Cloud aroſe in <hi>Scotland,</hi> and was, at firſt, no bigger than a mans hand, but at laſt it grew ſo great, that it covered three Kingdoms, and drench'd almoſt every corner of them with ſhowers of blood.</p>
+            <p>The pretence indeed of this diſorder was Religi<g ref="char:EOLhyphen"/>on, but it appeared by the ſad conſequences, that the thing deſign'd and intended (at leaſt by the Ring-leaders and firſt movers of it) was Violence, and Rapine, and Sacriledge.</p>
+            <q>
+               <l>Tantum Religio potuit ſuadere malorum?</l>
+               <l>Who would think Religion ſhould make men ſo wicked?</l>
+            </q>
+            <pb n="13" facs="tcp:99951:9"/>
+            <p>They begin firſt of all with Paper Arms, muti<g ref="char:EOLhyphen"/>nous and Treaſonable Pamphlets, and inſolent and ſenceleſs Petitions.</p>
+            <p>Then the evil Spirit grew ſo unruly and diſorder<g ref="char:EOLhyphen"/>ly, that it aſſaulted the Biſhops upon the Streets, nay the very Churches and Pulpits could not ſecure them from violence.</p>
+            <p>And at length this heat and inſolence broke forth into an open flame of Hoſtility and Rebellion.</p>
+            <p>But that which made every good mans apprehen<g ref="char:EOLhyphen"/>ſions of this miſchief the ſtronger, was, that the Re<g ref="char:EOLhyphen"/>bels were conniv'd at, if not favour'd, and encou<g ref="char:EOLhyphen"/>raged under hand by a party of their Brethren in <hi>England.</hi>
+            </p>
+            <p>For at the ſame time there were many Seditious Pamphlets ſcattered about here likewiſe, which did moſt impiouſly reflect both upon the Church and Government, yea which was yet infinitely more into<g ref="char:EOLhyphen"/>lerable, ſeveral of the Authors, who had been taken into cuſtody and confin'd for them, were afterwards by the Houſe of Commons delivered, and vindica<g ref="char:EOLhyphen"/>ted, and commenced the date of their Fame and Popularity (as <hi>Heroſtratu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> from the burning of <hi>Dia<g ref="char:EOLhyphen"/>na</hi>'s Temple) from thoſe a bominable beginnings, and upon thoſe dangerous Foundations erected the
+<pb n="14" facs="tcp:99951:10"/> ſtructure of their riſing Fortunes.</p>
+            <p>This I ſay to put you in mind, that ſometimes men arrive at ſtrange degrees of honour and eſteem, only by the merit of their Crimes: And I am of o<g ref="char:EOLhyphen"/>pinion, we have ſeen but too many examples of the like kind very lately, who to pleaſe the people and make a fortune, neither cared what they ſaid, or ſwore, or did.</p>
+            <p>But let me tell you by the way, that ſuch at<g ref="char:EOLhyphen"/>tempts and practices as theſe, are for the moſt part very unfortunate in the end, and when the Peoples eyes are opened, they that before cryed <hi>Hail Ma<g ref="char:EOLhyphen"/>ſter,</hi> will then cry <hi>Crucifie him, Crucifie him;</hi> and they that to day cry <hi>Hoſanna,</hi> will to morrow cry <hi>Away with him to</hi> Golgotha.</p>
+            <p>But I came not here to Propheſie.</p>
+            <p>The Male-contents in <hi>England,</hi> after the example of their rebellious Neighbours, begin to cry out a<g ref="char:EOLhyphen"/>loud for <hi>Liberty, and Religion, and a thorow Reformation.</hi>
+            </p>
+            <p>Hereupon his Majeſty, thinking it the moſt pro<g ref="char:EOLhyphen"/>per remedy for theſe Agonies and Convulſions of State, calls a Parliament.</p>
+            <p>And this, as it happened afterwards, proved a remedy worſe than the Diſeaſe it ſelf: For inſtead of healing and compoſing differences and grievances,
+<pb n="15" facs="tcp:99951:10"/> they made it their buſineſs to aggravate, and make them worſe.</p>
+            <p>They themſelves immediately begin to complain of Biſhops and the whole Hierarchy of Eccleſiaſti<g ref="char:EOLhyphen"/>cal Officers in the Church; and of evil Counſellors in the State, and about his Majeſties Perſon.</p>
+            <p>Nay they begin to deſcend to particulars. His Grace the Lord Arch-Biſhop is Impeached, and af<g ref="char:EOLhyphen"/>terwards Executed for high-Treaſon; nor can the Reverence of his Office, nor the Integrity of his Manners, ſecure him. About the ſame time, the Lord Lieutenant of <hi>Ireland,</hi> of whoſe Innocence his Majeſty, and all the World (not excepting his very Enemies, who took care that his caſe ſhould be no preſident for Poſterity) were very well ſatisfied, was alſo Committed to the Tower, Condemned, and Executed upon the like accuſation.</p>
+            <p>All this while his Majeſty was but a helpleſs looker on, for the Common People upon his oc<g ref="char:EOLhyphen"/>caſion, ran together in ſuch Multitudes and clamo<g ref="char:EOLhyphen"/>rous Tumults, as endangered not only the Servant, but the Maſter.</p>
+            <p>A hard caſe and a pitiful, that a King whoſe the Laws are, could not deliver an innocent Perſon from being Condemned, and ſuffering Death contrary
+<pb n="16" facs="tcp:99951:11"/> to Law, and a ſad preſage of his own misfortunes.</p>
+            <p>In the mean time, the Parliament is plyed with Petitions from all ſorts of men and women too (ex<g ref="char:EOLhyphen"/>cept the good) and Grievances, and Fears, and Jea<g ref="char:EOLhyphen"/>louſies of I know not how many kinds.</p>
+            <p>But the main common places were Religion and Liberty.</p>
+            <p>Alas! what Religion do they dream of, that ſtrike at the very roots and foundations of it? Or what Liberty can the Subjects expect, when the King himſelf is not free.</p>
+            <p>However they and the Parliament mutually en<g ref="char:EOLhyphen"/>courage one another, and ſtrengthen one anothers hands in wickedneſs. The clamours of the Peo<g ref="char:EOLhyphen"/>ple make the Parliament bold, and the boldneſs of the Parliament makes the People clamorous.</p>
+            <p>All this while his Majeſty, to ſhew how much he tendered the peace and quiet of his Subjects, and to ſatisfie them all, if it were poſſible, at their im<g ref="char:EOLhyphen"/>portunity, recedes in ſome things from his Right and Prerogative.</p>
+            <p>He paſſes a Bill for the Triennial Parliaments, and afterwards ſettled this during the pleaſure of the two Houſes.</p>
+            <p>A wonderful condeſcention and goodneſs in a
+<pb n="17" facs="tcp:99951:11"/> King, the like of which we have never met with in all our Engliſh Chronicles.</p>
+            <p>And now let us ſee how they requite him.</p>
+            <p>About this time, his Majeſty charged ſome of the Members of the Houſe of Commons, and not with<g ref="char:EOLhyphen"/>out juſt cauſe, with High-Treaſon, and demanded them in the Houſe himſelf in Perſon.</p>
+            <p>But this they exclaim of as a high breach of Pri<g ref="char:EOLhyphen"/>viledge, and the accuſed Members, who were for the preſent fain to abſcond, were in a little time af<g ref="char:EOLhyphen"/>terward brought again to ſit in the Houſe, and vin<g ref="char:EOLhyphen"/>dicated without Tryal.</p>
+            <p>Thus finding the ground they had got of his Ma<g ref="char:EOLhyphen"/>jeſty, their demands grow every day louder and more unreaſonable: They do not bluſh to demand the power of the <hi>Militia,</hi> the Command of the Na<g ref="char:EOLhyphen"/>vy, the Government of all the Strengths and Garri<g ref="char:EOLhyphen"/>ſons in the Kingdom.</p>
+            <p>So that Royalty was now to be ſtrips of all her Ornaments, and Soveraignty to be
+<q>
+                  <l>— Vox &amp; praeterea nihil.</l>
+                  <l>An empty Name, and nothing elſe.</l>
+               </q>
+            </p>
+            <pb n="18" facs="tcp:99951:12"/>
+            <p>And now what is become of our old Engliſh Loyalty and Honeſty, when our King ſhall, by his own Parliament, be diveſted of all the Enſigns of his Honour and Majeſty, and the Father of his Coun<g ref="char:EOLhyphen"/>try become a Slave to his Subjects?</p>
+            <p>About this time did the Natives of the Kingdom of <hi>Ireland,</hi> encouraged by the example of the <hi>Scots,</hi> and the attempts of this Parliament upon the Crown, caſt off the Yoke of their Allegiance, and run into open Rebellion, and made ſuch a Maſſacre of his Majeſties Proteſtant Subjects, as never was heard of before in the three Kingdoms.</p>
+            <p>And here notwithſtanding his Majeſties continual ſolliciting and importuning the Parliament, for the reducing and ſettling that Kingdom; it is very ob<g ref="char:EOLhyphen"/>ſervable, that they ſtill declin'd it: And ſome men were ſo barbarouſly ſcandalous and ſo unreaſonably malicious, as to object the cauſe of that Rebellion to his Majeſty himſelf, and intimate to the World that it was ſecretly begun and favoured by his Au<g ref="char:EOLhyphen"/>thority and Commiſſion.</p>
+            <p>Thus did the three Kingdoms, as if they had made a ſecret League and Agreement among themſelves, almoſt at one time fall into Rebellion againſt their Natural Prince: A Prince who was ſo ready to
+<pb n="19" facs="tcp:99951:12"/> grant them any reaſonable requeſt, that we may ſay of him as it was once ſaid of the good <hi>Roman</hi> Emperor,
+<q>Neminem unquam a ſe triſtem demiſit.</q> He never let any man depart out of his preſence ſorrowful or dejected, if his Petition could be grant<g ref="char:EOLhyphen"/>ed with honour.</p>
+            <p>But the Parliaments Addreſſes are not ſuch, they ſpend whole Reams in Petitions, Remonſtrances, Declarations, and a great many ſuch like Paper fire<g ref="char:EOLhyphen"/>works, all very ſtrange and unreaſonable.</p>
+            <p>And ſtill the more his Majeſty grants, the more they ſtill demand; for they are reſolv'd that nothing ſhall ſatisfie them but all.</p>
+            <p>They will have the very Fundamentals of Go<g ref="char:EOLhyphen"/>vernment altered, both in Church and State, and becauſe his Majeſty cannot agree to this, the Rabble aſſociate themſelves in tumults and dangerous up<g ref="char:EOLhyphen"/>roars, inſomuch that he is forced to ſend away his Queen into <hi>Holland,</hi> for fear of violence from his own Subjects, in the head City of his Kingdom, and in his own Palace.</p>
+            <p>Nay at laſt he was fain himſelf to retreat from
+<pb n="20" facs="tcp:99951:13"/> his own Houſe, and take an unwilling leave of the City, for fear his People, in their mutinies and tu<g ref="char:EOLhyphen"/>mults, (than which there can be no greater omens or preſages of approaching miſery to a State) ſhould have ſtretcht forth their hands to deſtroy the Lords Anointed.</p>
+            <p>And becauſe he is now out of their reach, the Parliament do actually ſeize upon the Militia, the Tower, and all other Garriſons of the Kingdom, they put the command of the Navy into hands of their own chuſing, and their own Creatures into all Offices of Truſt in the Kingdom.</p>
+            <p>In ſhort, having made all the preparations that the time would admit, they put themſelves into a poſture of War, and to let the world ſee that they were in good earneſt; his Majeſty is abſolutely de<g ref="char:EOLhyphen"/>nyed entrance into one of his own Towns, and the Parliament avow the Deed.</p>
+            <p>And this, I think; was one of the firſt acts of open Hoſtility and Defiance.</p>
+            <p>I am ſorry I have been forced to be ſo particular in this firſt part of his late Majeſties Sufferings, but I have done it not only to put you in mind of thoſe ſteps and advances, whereby the late Civil Wa<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>gan, but alſo to let you ſee how near we were, in
+<pb n="21" facs="tcp:99951:13"/> this late conjuncture of affairs, to tread the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>me paths, and make our ſelves miſerable once more by the ſame means.</p>
+            <p>And here I deſire that no body may take that for Reproach and Affront, which I intend only for Reproof and Inſtruction</p>
+            <p>We began <hi>now</hi> juſt <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>we did <hi>then;</hi> after a long Fit of Eaſe, and Plenty, to be weary of our Reſt, and ſick of our Happineſs.</p>
+            <p>And, to ſecure the <hi>Succeſs,</hi> the <hi>Deſign</hi> is begun with the very <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> method, whereby <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> had once prevailed.</p>
+            <p>
+               <hi>Secret Murmurings, Private Cabals, Treaſonable Pamphlets, Lewd Petitions, Complaints againſt the Church, and Her Diſcipline, Indignities to Her Biſhops, Crying out againſt Evill Counſellors, leſſening His Ma<g ref="char:EOLhyphen"/>jeſty in the eſteem of His People, and filling their Heads with frantick Fears, and Jealouſies where no Fear was.</hi>
+            </p>
+            <p>This I <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, though I could wiſh it were not. And, had <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> His Majeſty, and His Council, ſeen the <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Conſequences of theſe things once before, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd all probability we had been min'd, and un<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>one by Whe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ow, and the whole Nation <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> in a Bloudy Ci<g ref="char:EOLhyphen"/>vil War</p>
+            <pb n="22" facs="tcp:99951:14"/>
+            <p>Brother might been fighting againſt Brother, the Father againſt the Son, and the Son againſt the Fa<g ref="char:EOLhyphen"/>ther; and a Man's Enemies might have been thoſe of his own Houſe.</p>
+            <p>And this puts me in mind of the ſecond Section in my method; wherein I promis'd to ſpeak of <hi>His Majeſty's Sufferings and Misfortunes,</hi> during the time of the late Civil War, till he was deliver d up by the <hi>Scots</hi> into the hands of His Enemies, and Impriſon'd.</p>
+            <p>And now, you may imagine the War already be<g ref="char:EOLhyphen"/>gun; <hi>Engliſh</hi>-men marching, and fighting againſt <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi>-men; the Air filled with the noiſe of Drums and Trumpets, and darkened with the ſmoak of Can<g ref="char:EOLhyphen"/>nons and Muſquets; the Fields cover'd with the Carcaſſes of the Dead; and the Rivers colour'd with the Bloud of the Slain.</p>
+            <p>In the midſt of this Confuſion, and clattering of Arms, the Laws are utterly ſilent, and each man's Poſſeſſion is his only Title.</p>
+            <p>With what eyes, and with what heart, do you think ſo good a King could behold the various Suc<g ref="char:EOLhyphen"/>ceſſes and Events of the War<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> wherein, whoever were the Conquerours, He was ſtill ſure to loſe His Subjects, and always to bear a ſorrowful part, both in <hi>Doing</hi> and <hi>Suffering.</hi>
+            </p>
+            <pb n="23" facs="tcp:99951:14"/>
+            <p>How contrary this War was to His Majeſty's In<g ref="char:EOLhyphen"/>tentions, (that I may uſe his own words, in his in<g ref="char:EOLhyphen"/>comparable <gap reason="foreign" resp="#OXF">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) will appear in his total unpreparedneſs for it. His ſonner Conceſſions ſhew how willingly he would have prevented it; and his frequent Meſſages for Peace ſufficiently te<g ref="char:EOLhyphen"/>ſtifie that he delighted not in War.</p>
+            <p>Whereas, all the Overtures of Peace that his Enemies ever made, were ſtill accompanied with ſuch Articles and Clauſes, as they knew beforehand could never be condeſcended to; either by a King, or a Good Man.</p>
+            <p>Witneſs the Nineteen <hi>Propoſitions</hi> with the <hi>Additi<g ref="char:EOLhyphen"/>on;</hi> The Treaty at <hi>Uxbridge;</hi> and all other their <hi>Mediations,</hi> wherein it is evident, even to ordinary Capacities, that they deſign'd nothing but War, well underſtanding, and wiſely conſidering, that a<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>om of <hi>Machiav<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>, He that draws his Sword againſt his Prince muſt throw away the Scabb<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rd.</hi>
+            </p>
+            <p>This indeed they kept to themſelves.</p>
+            <p>But there were other <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> of their own Po<g ref="char:EOLhyphen"/>licy, I could tell you of, which they ob<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>led upon the People, to the eternal ſhame of o<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <hi>Engliſh</hi> Nation be it ſpoken.</p>
+            <p>As, the diſtinction between His Majeſty<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s Pri<g ref="char:EOLhyphen"/>vate
+<pb n="24" facs="tcp:99951:15"/> and <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a<g ref="char:EOLhyphen"/>gainſt Himſelf, by H<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Authority; Killing his Sub<g ref="char:EOLhyphen"/>jects, to Defend <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>belling our <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>I know <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> they worthy upon <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> they impoſed theſe notions but I am cer<g ref="char:EOLhyphen"/>tain the Impartial <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Swords and Bullets could never be taugh<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> in <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Confu<g ref="char:EOLhyphen"/>ſion and Calamity, it ſhould go well with the Church, when it was ſo ill with her Sons.</p>
+            <p>The Reverend Biſhops are ſome of <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> from their Se<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>.</p>
+            <p>An Ordinance is made againſt the Book <hi>Common Prayer;</hi> 
+               <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> the very <hi>Creed</hi> and Lord's prayer <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and ſome of the <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> form <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> of <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ha<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>Th<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Pulpits <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+               <pb n="25" facs="tcp:99951:15"/> Stools of Sedition, and Treaſon; and becauſe there were not enough of them, the Shop-bulks, Tables, Chairs, Tubs, Trees, and almoſt every co<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>er of the Streets, are preſt to ſupply the defect.</p>
+            <p>The Learned and Orthodox Divines are ſlighted, and perſecuted; and the bold, and ignorant, <hi>Guif<g ref="char:EOLhyphen"/>ted-men,</hi> (as they call'd them) are favour'd and ad<g ref="char:EOLhyphen"/>vanc'd.</p>
+            <p>No wonder then if all manner of Sects, Errours, and Hereſies (like Leprous and Infectious Diſea<g ref="char:EOLhyphen"/>ſes) ſpread themſelves almoſt into all places of the Kingdom.</p>
+            <p>And now the <hi>Scots</hi> are called in, as Auxiliaries, to their Brethren; but they are men not to be hir'd upon any eaſie, or ordinary terms.</p>
+            <p>They bring a <hi>Solemn League and Covenant</hi> along with them; and unleſs their Brethren in <hi>England</hi> will take it, they are reſolv'd not to ſtrike a ſtroke in their Quarrel. How this <hi>Covenant</hi> obtained a<g ref="char:EOLhyphen"/>mongſt us, and how it was received in this King<g ref="char:EOLhyphen"/>dom, I ſhall not need to tell you.</p>
+            <p>Let me only ſay this, (and the truth of it) That it was only made uſe of here as a trick of State, for the R<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ner of the Church, and the Extirpation of her Diſcipline.</p>
+            <pb n="26" facs="tcp:99951:16"/>
+            <p>I had like to have added, the Damming of mens Souls; for it was directly contrary to the <hi>Oaths of Supremacy and Allegiance;</hi> ſo that he that took both Them, and the <hi>Covenant,</hi> muſt of neceſſity be Per<g ref="char:EOLhyphen"/>jur'd; and whereas they called it, <hi>A Solemn League and Covenant with God:</hi> I dare boldly ſay, in the Prophets Phraſe, <hi>Iſa.</hi> 28.15. <hi>It was a Covenant with Death, and an agreement with Hell.</hi>
+            </p>
+            <p>But to return to the War.</p>
+            <p>This War was managed on His Majeſties ſide with the greateſt diſadvantages imaginable; for the Parliament had ſeized upon His own Revenues, ſequeſter'd His Friends, and to keep His Subjects from ſerving him out of Love, and Loyalty, they maliciouſly ſpread abroad falſe and ſcandalous Re<g ref="char:EOLhyphen"/>ports of His Perſon.</p>
+            <p>Thus, by the permiſſion of God Almighty, (who ſometimes in Judgment lets the Wicked proſper) His Majeſties Army, by ſeveral conſiderable Loſ<g ref="char:EOLhyphen"/>ſes, being extremely reduced and weakened; and Money (which is the ſtrength and ſinews of War) being wanting to recruit them, He reſolves to give over the War, and betake Himſelf to the <hi>Scotch</hi> Ar<g ref="char:EOLhyphen"/>my, which lay then before <hi>Newark,</hi> and did ſo, ha<g ref="char:EOLhyphen"/>ving this only comfort in the world, (beſides that
+<pb n="27" facs="tcp:99951:16"/> of a good Conſcience) that <hi>the Event never ſtates the Juſtice of a Cauſe.</hi>
+            </p>
+            <p>With what killing thoughts, and terrible appre<g ref="char:EOLhyphen"/>henſion<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> do we think His Majeſty threw Himſelf into the power of theſe perfideous Men, of whom he himſelf ſaid, after they had ſold him, That <hi>they were juſt in this, that they had not deceived him?</hi>
+            </p>
+            <p>How lamentable was his condition, when, upon mature deliberation, he thought it his greateſt ſafe<g ref="char:EOLhyphen"/>ty to truſt thoſe, in whom he knew there was no Truſt?</p>
+            <p>Immediately after his arrival there, he iſſues out his Warrants to all the Governours of Towns, and other Officers in his Army, to capitulate with his Enemies, make ſuch Conditions as their circum<g ref="char:EOLhyphen"/>ſtances would admit, and ſurrender.</p>
+            <p>And certainly, it could not chuſe but be a very great affliction to ſo large and noble a Soul as that of his, to think that at laſt ſo many Brave and Loy<g ref="char:EOLhyphen"/>al men muſt leave his Service, without any Reward, but that of Heaven, and be expos'd to the Fury of thoſe wicked men, whoſe very tender Mercies, he knew, were Cruel.</p>
+            <p>The News of His Majeſties putting himſelf in<g ref="char:EOLhyphen"/>to the protection of the <hi>Scots</hi> (you may think) quick<g ref="char:EOLhyphen"/>ly
+<pb n="28" facs="tcp:99951:17"/> arriv'd at the Parliament, who immediately a<g ref="char:EOLhyphen"/>gree with them about his Price, (I muſt not ſay Ranſom) and ſo he is bought and ſold, and deli<g ref="char:EOLhyphen"/>ver'd into the hands of his Implacable <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nemies, conducted to <hi>Holm<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>y,</hi> and confin'd.</p>
+            <p>And this brings to the third Section of His Maje<g ref="char:EOLhyphen"/>ſties Sufferings; to wit, <hi>During His Impriſonment;</hi> which part of his affliction comes neareſt the literal ſenſe of the Text, <hi>To bind your Kings in Chains.</hi>
+            </p>
+            <p>I ſhall need to ſay little (eſpecially in this Audi<g ref="char:EOLhyphen"/>ence) of the preſſures and difficulties of a Priſon to the very meaneſt, and moſt vulgar of men. But, that a King ſhould be <hi>bound in Chains;</hi> the Aſſert or of the Peoples Liberties confin'd; a Sovereign Prince, ſo Great, ſo Good, ſo Juſt, Impriſon'd by his own Subjects, in his own Kingdom, may chal<g ref="char:EOLhyphen"/>lenge the wonder and amazement of this age, and perhaps exceed the belief of ſome of thoſe that are to come.</p>
+            <p>The boldneſs and malice of his Enemies was a wonder; ſo alſo was His Majeſties Virtue and Pa<g ref="char:EOLhyphen"/>tience: And certainly, had not his Spirit been buoy'd up, and wonderfully confirm'd, by the ſweet and comfortable Influences of God Almigh<g ref="char:EOLhyphen"/>ty's, his reſtraint would have deluded their laſt Re<g ref="char:EOLhyphen"/>venge,
+<pb n="29" facs="tcp:99951:17"/> and put an end to his miſerable Life before the day.</p>
+            <p>Immediately after, his Enemies, that their malice and bitterneſs might want no aggravation, com<g ref="char:EOLhyphen"/>mand his Guardians to retrench both the Expences of his entertainment, and his Retinue; The Coun<g ref="char:EOLhyphen"/>trey-people that flock'd thither to be cur'd of that Diſeaſe which we commonly call the <hi>King's Evil,</hi> are not admitted to his Preſence, but repell'd with Scorn and Reproaches. But that which was the moſt Prodigious and Inhumane of all their Cruel<g ref="char:EOLhyphen"/>ties, and hard uſage, was, that (as if, like the <hi>Devil,</hi> they had envy'd the well-fare of his Soul) notwith<g ref="char:EOLhyphen"/>ſtanding all his Sollicitations in this Extremity, they refus d him the attendance of his Chaplains; a greater Rigour and Barbarity than is ever uſed a<g ref="char:EOLhyphen"/>mongſt Chriſtians to the meaneſt Priſoners, and greateſt Malefactors.</p>
+            <p>By the firſt, they might think to leſſen the Qua<g ref="char:EOLhyphen"/>lity of his Perſon; By the ſecond, to diminiſh his Credit and Eſteem among the People; But, by the laſt, I know not what they could intend; unleſs it were to hedge up his way to Heaven, and, if it were poſſible, murder his Immortal Soul.</p>
+            <p>I will not adventure to tell you how his Majeſty
+<pb n="30" facs="tcp:99951:18"/> reſented this paſſage, I refer you to his own Book.</p>
+            <p>A while afterwards, ſome miſ-underſtanding a<g ref="char:EOLhyphen"/>riſing between the Parliament and the Army, the General ſends a Party of Horſe, ſeizes his Majeſties Perſon, and carries him from one place to another, till at laſt he is committed Priſoner to the <hi>Iſle of Wight.</hi>
+            </p>
+            <p>And here the Parliament ſend their Commiſſio<g ref="char:EOLhyphen"/>ners to Treat with him again; where they find his Conceſſions ſuch, that they tell him they doubt not but that the Peace will ſuddenly be concluded, and all differences between Him and his People adjuſted and determined.</p>
+            <p>Upon their return to <hi>London,</hi> the Army (wherein, it is probable, there were many <hi>Cains</hi> and <hi>Judaſs's,</hi> who thought their ſins too great for Pardon) puts for<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>h a Remonſtrance, wherein they demand, <hi>That Juſtice may be done upon all the Actors and Contrivers of the late Civil War; and particularly upon his Majeſty, as the Author and Beginner of that Calamity.</hi>
+            </p>
+            <p>Hereupon his Majeſty is committed cloſe Priſo<g ref="char:EOLhyphen"/>ner, his Servants diſmiſs'd, and he himſelf a while after brought to <hi>Windſor,</hi> and ſo to <hi>London,</hi> with a ſtrong Guard; where the uſual Reſpect, and cere<g ref="char:EOLhyphen"/>mony of the Knee, is quite wav'd, and omitted by
+<pb n="31" facs="tcp:99951:18"/> moſt of thoſe that are about his Perſon; nay there were ſome that would ſcarce vouchſafe him the Hat.</p>
+            <p>And now, to add the laſt complement to their Iniquity, which is, to Eſtabliſh it by Law: the Houſe of Commons declare, <hi>That, by the Fundamen<g ref="char:EOLhyphen"/>tal Laws of the Realm, it is Treaſon in the King of</hi> Eng<g ref="char:EOLhyphen"/>land, <hi>to levy War againſt the Parliament, and Kingdom. That the Legiſlative Power is in the People. That the Commons aſſembled in Parliament are the Supreme Autho<g ref="char:EOLhyphen"/>rity of the Nation That all the People of the Nation are included in the Parliament, although the King and Houſe of Peers do not conſent thereunto. That the King himſelf took Arms againſt the Parliament, and therefore is Guilty of all the Bloud-ſhed in the late Civil War; and that he ought to expiate the Crime with his own Bloud.</hi>
+            </p>
+            <p>Notwithſtanding this, the Ordinance for his Ma<g ref="char:EOLhyphen"/>jeſties Tryal is refuſed by the Lords; whereupon the Houſe of Commons paſs it alone, and by them<g ref="char:EOLhyphen"/>ſelves cauſe a Charge of High Treaſon to be drawn up againſt him, in order to his Tryal, in the Name of the Commons of <hi>England,</hi> and immediate<g ref="char:EOLhyphen"/>ly make Proclamation, <hi>That they that could Accuſe the King, ſhould preſent themſelves before the Commiſſio<g ref="char:EOLhyphen"/>ners appointed for his Tryal, and they ſhould be heard.</hi>
+            </p>
+            <pb n="32" facs="tcp:99951:19"/>
+            <p>I will not trouble you with Remarques upon theſe ſeveral paſſages; the bare Relation does manifeſtly ſhew us both the Rebels Malice, his Majeſties Suf<g ref="char:EOLhyphen"/>ferings, and admirable Patience and Reſignation; whereof himſelf hath given us the beſt draught, in his own incomparable Book.</p>
+            <p>We will therefore leave him a while to his De<g ref="char:EOLhyphen"/>vout Prayers, and Holy Meditations; and before we bring him to act his laſt Part upon this Bloudy Stage, according to the order of our method, ſpeak a word upon <hi>His Sufferings in the Perſons of his Loy<g ref="char:EOLhyphen"/>al Nobility, and ſuch good Subjects as ſtood and fell with his Majeſty, in that Good Cauſe.</hi>
+            </p>
+            <p>We commonly ſay, <hi>The King is the Fountain of Honour;</hi> and when the Fountain is troubled, you know the Rivulets, and little Streams, muſt needs run muddy.</p>
+            <p>The King is like the great Luminary of the world, the Sun; from which (as ſome Natural Philoſophers conceive) both the Moon, and many of the leſſer Lights of Heaven, borrow their ſhine and ſplendour.</p>
+            <p>Now, when the Sun it ſelf is Eclipſed, the Moon, and all thoſe other Planets, muſt needs fade, and loſe their brightneſs.</p>
+            <pb n="33" facs="tcp:99951:19"/>
+            <p>When the King <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> we th<gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Loyal <gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap>bles ſhould enjoy their reflected Honours and Liberties.</p>
+            <p>Thi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was the ſtate of <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> time.</p>
+            <p>
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, was D<gap reason="illegible" resp="#MURP" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>'<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the meaſures of his Suffering this Fai<gap reason="illegible" resp="#MURP" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> were likewiſe Plunder'd, <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, and many of <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>So exactly were thoſe <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ap<g ref="char:EOLhyphen"/>plicable to this ſad occaſion, <hi>The Servant is not grea<g ref="char:EOLhyphen"/>ter then his Maſters,</hi> And <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <hi>things in the Green Tree, what will they do to the D<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>?</hi>
+            </p>
+            <p>I will not pretend to give you a juſt Bill of the Mortality of thoſe da<gap reason="illegible" resp="#MURP" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s; But ſince I am ſo far engag'd, I will <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to ſay ſomething, and be ſure to keep <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> bounds of truth and modesty.</p>
+            <p>There were on his Majeſties part above Twenty Earls and Lords ſlain and <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a pre<g ref="char:EOLhyphen"/>tended Court of Juſt<gap reason="illegible" resp="#MURP" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>; <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> and Knights; above an Hundred <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Lieut<gap reason="illegible" resp="#MURP" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, and Serjeant <gap reason="illegible" resp="#MURP" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Four hundred <gap reason="illegible" resp="#MURP" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and other inferiour Com<g ref="char:EOLhyphen"/>miſſion Officers; and then, for the meaner Sub<g ref="char:EOLhyphen"/>jects,
+<pb n="34" facs="tcp:99951:20"/> and <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> you to gueſs; I will ſay nothing of <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>hers, but pray to God, th<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> their Bloud <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> ever <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>tiſe up in Judg<g ref="char:EOLhyphen"/>ment againſt <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>
+               <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>, or Ten<gap reason="illegible" resp="#KEYERS" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>, overture would <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Oak, and goodly <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ars, but deſtroy d<gap reason="illegible" resp="#KEYERS" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> cruſh'd the very Sh<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>There was fear ſcarce <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> were only thought, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> to be ſo) though his Qu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>l ioy were never ſo mean, but felt the Inſolence and Violences of th<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ful Conquerours.</p>
+            <p>Yea, ſome<gap reason="illegible" resp="#KEYERS" extent="4 letters">
+                  <desc>••••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> a Crime only to live in a Loyal Neighbourhood, and to relieve or ſhew mercy to ſuch as were perſecuted for <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Loyalty, was the <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ady way to follow the<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, and ſhare in the <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap>
+            </p>
+            <p>Nay more, their malice often times <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>ſcended all bounds, that they did miſchief where they were not <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> to themſelves; on<g ref="char:EOLhyphen"/>ly <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> they took in doing it: Burning <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> Goods, deſtroying Books; E<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="5 letters">
+                  <desc>•••••</desc>
+               </gap>s, and Publick Records, to the prejudice of Poſterity, the diſturbance of Poſſeſſions, the obſtru<g ref="char:EOLhyphen"/>ction of Juſtice, the impairing of Learning, only to make themſelves ſport.</p>
+            <pb n="35" facs="tcp:99951:20"/>
+            <p>Nay, I believe there is ſcarce a Cathedral in the Kingdom, which does not bea<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Livery of their madneſs, and ſome markes of their rage, unto this very day.</p>
+            <p>Nor do I wonder, that the Houſes of God were prophan'd and defac'd, when I conſider that the Prieſts themſelves, who ſerv'd at his Altar, were either ſacrific'd to the fury of his Enemies, or at leaſt depriv'd of their Benefices, and expos'd to the wide world; which was one of their tender Mer<g ref="char:EOLhyphen"/>cies.</p>
+            <p>But what do I ſpeak of their perſecuting of the living, who envy'd the very reſt and quiet of the dead; breaking in pieces their Monuments, and violating the Aſhes of thoſe Bodies, whoſe Souls are in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eaven, out of their reach, long ago?</p>
+            <p>How monſtrous and diſproportionable is it in theſe men, to pretend themſelves. <hi>Servants of the Living God,</hi> who in their practices <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ich a mortal ha<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ed to the places where his <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> dwells? Or how can we think that they have any Religion, who have even diveſted themſelves of all Huma<g ref="char:EOLhyphen"/>nity.</p>
+            <p>I will paſs from this unpleaſant Argument, with praying for thoſe of them that are yet alive,
+<pb n="36" facs="tcp:99951:21"/> in the words wherewith St. <hi>Stephen</hi> (the bleſſed Proto Martyr pray'd for thoſe that ſton'd him, <hi>Lord lay not this S<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> to the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Charge.</hi>
+            </p>
+            <p>I will only put you in mind, that when you have added the Sufferings of the Nobility, to thoſe of his late Majeſty, you have the compleat figure, and ſubſtance of the Text; <hi>A King in Chai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>, and his Nobles in Feet<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> of Iron.</hi>
+            </p>
+            <p>But there is yet no end of this ſorrowful ſtory.</p>
+            <p>What I have hitherto ſaid, are all but flouriſhes and preliminaries; The great ſlaughter of the fifth Act, the laſt and bloudieſt ſection of my method, is yet to come; and that is, the Murder and Mar<g ref="char:EOLhyphen"/>tyrdom of the beſt of Kings, by the hands of his own Rebellious Subjects.</p>
+            <p>An action, that (all circumſtances conſider'd) can find no parallel in time paſt, and God forbid it ſhould in time to come; to which Poſterity ſhall for eve<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ay an annual Tribute of Tears, and the ſolemnity <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Penetential Commemoration.</p>
+            <p>An action, that ſurpaſſes all the ſavage and in<g ref="char:EOLhyphen"/>humane Barbarities of thoſe Countreys, whoſe Cruelty is gone into a Proverb, and which, among other Nations, has branded, and ſtigmatiz'd this of ours, with an eternal Infamy.</p>
+            <pb n="37" facs="tcp:99951:21"/>
+            <p>The Rebels bring their Lawful Sovereign to a formal Tryal, in a Court of their own erecting: In vindication of whoſe Authority, when queſtio<g ref="char:EOLhyphen"/>ned by his Majeſty, as they had nothing to anſwer, ſo could they not produce the leaſt colour of Law, or pretence of Reaſon for trying him, who was <hi>un<g ref="char:EOLhyphen"/>accountable to <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>y. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> upon Earth,</hi> and according to that antient ma<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the Law, <hi>can do no wrong.</hi>
+            </p>
+            <p>But their <hi>Po<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap>
+               </hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>ſt paſs for <hi>Juſtice,</hi> and their <hi>Wills</hi> are a <hi>Law:</hi> And he might as well demand an account of their Proceedings, as an Innocent Tra<g ref="char:EOLhyphen"/>veller might of violence offer'd him by a deſperate knot of Banditti, or Highway-men.</p>
+            <p>All this while (as the <hi>Jews</hi> did at the Tryal of our Saviour) the inſolent Souldiers, according to their Inſtructions, (not to mention their more than Barbarous and Inhumane affronts and uncivilities) cry out aloud for <hi>Juſtice againſt the Priſoner at the Bar.</hi>
+            </p>
+            <p>The Preſident of that <hi>High Court of Juſtice</hi> (as they called it) in the mean while, with a torrent of im<g ref="char:EOLhyphen"/>perious and inſolent words, urges him to plead, while he only perſiſts (as well be might) to deny the Authority of the Court.</p>
+            <p>There are ſeveral days ſpent in the ſame manner;
+<pb n="38" facs="tcp:99951:22"/> after which, as Judges uſe to treat Malefactors, that <hi>have not the fear of God before their Eyes,</hi> the Preſident begins a grave Harrangne, (nor will he be interrup<g ref="char:EOLhyphen"/>ted by a King) wherein he aſſerts <hi>the Authority of Parliaments, aggrevates his Majeſties contumacy, and the horrour of his Crimes</hi> wilfull<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> miſtaking light for darkneſs, and darkneſs for <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>; Innocence for Guilt, and Guilt for Innocenc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> ſo proceeds to Sentence of Death, by ſeve<gap reason="illegible" resp="#KEYERS" extent="3 letters">
+                  <desc>•••</desc>
+               </gap>g his Head from his Body.</p>
+            <p>
+               <hi>This</hi> (ſays he, after the Sentence read) <hi>is the Act, Sentence, Judgement and Reſolution of the whole Court;</hi> whereupon they that ſate as Judges (being in num<g ref="char:EOLhyphen"/>ber Seventy eight perſons) ſtood up, and ſhewed their aſſent, by <hi>holding up their hands;</hi> never conſi<g ref="char:EOLhyphen"/>dering, with what heavy hearts, and dejected eyes, they ſhould one day <hi>bold up their hands again for the ſame. Fact,</hi> before the dreadful Tribunal of the Righteous Judge of all the world.</p>
+            <p>The Execution was not long reſpited. There were but two days between that of his Sentence, and that of his Death; which he ſpent in ſuch De<g ref="char:EOLhyphen"/>vout and Pious Exerciſes, as become a dying Chri<g ref="char:EOLhyphen"/>ſtian.</p>
+            <p>He receiv'd the Holy Sacrament, Bleſs'd and
+<pb n="39" facs="tcp:99951:22"/> Inſtructed thoſe his Children that were with him; pray'd for the Peace of the Nation, for the Hap<g ref="char:EOLhyphen"/>pineſs of his Friends, and the Repentance of his Enemies.</p>
+            <p>The black and diſmal day of his Execution be<g ref="char:EOLhyphen"/>ing come, he is brought to the Place, which (as if it were deſign'd to add to his affliction, if poſſible) was, <hi>a Scaffold erected juſt before his own Palace.</hi>
+            </p>
+            <p>The ſpectators were amaz'd to ſee him enter upon that Bloudy Stage with ſo much meekneſs and leuity, ſo much ſerenity and chearfulneſs in his looks.</p>
+            <p>Nothing daunted, or ſurpriz'd with the ſad ſpe<g ref="char:EOLhyphen"/>ctacle of the Inſtruments, and Circumſtances of his Death; In a ſhort Speech, he firſt declares his Inno<g ref="char:EOLhyphen"/>cence; laments the publick Calamity of the King<g ref="char:EOLhyphen"/>dom; heartily pardons, and prays for his Enemies; Then, making an open Profeſſion, that <hi>He dy'd in the Chriſtian Faith, according to the Profeſſion of the Church of</hi> England, and kneeling down, his laſt breath diſſolves in a meek, and holy Prayer.</p>
+            <p>And, in aſſurance of God Almighty's Mercy, and his own Innocence, <hi>I go</hi> (ſays he) <hi>from a Cor<g ref="char:EOLhyphen"/>ruptible, to an Incorruptible Crown, where no diſturbance can be, but Peace, and Joy for evermore.</hi>
+            </p>
+            <pb n="40" facs="tcp:99951:23"/>
+            <p>Then, lifting up his eyes and hands to Heaven, mildly praying to himſelf, he ſtooped down to the Block, and humbly bow'd down his Royal Head to God, to be cut off by the Vizarded Executioner, which was ſuddenly done, and one blow.</p>
+            <p>Thus fell that Mighty Monarch, and Miracle of Goodneſs, <hi>CHARLES</hi> I. of ever bleſſed memory, a Martyr for his God, and a Sacrifice for his Sub<g ref="char:EOLhyphen"/>jects; the Grief, and Glory of the <hi>Engliſh</hi> Nation; lamented not only by his Friends, but even by thoſe very men (though too late) that had aſſiſted in bringing him to the Block.</p>
+            <p>
+               <hi>Thus fell the Beauty of our</hi> Iſrael, <hi>in the High-places. How are the Mighty fallen?</hi>
+            </p>
+            <p>
+               <hi>Tell it not in</hi> Gath; <hi>publiſh it not in</hi> Askalon; <hi>leſt the Daughters of the</hi> Philiſtines <hi>rejoyce; leſt the Daugh<g ref="char:EOLhyphen"/>ters of the Uncircumciſed triumph.</hi>
+            </p>
+            <p>Tell it not among our Neighbours abroad, pub<g ref="char:EOLhyphen"/>liſh it not in Foreign Kingdoms, leſt our Enemies rejoyce, leſt we become a reproach to our Neigh<g ref="char:EOLhyphen"/>bours, a ſcorn and deciſion to them that are round about us.</p>
+            <p>
+               <hi>Ye Mountains of</hi> Gilboah, <hi>let there be no Dew, nei<g ref="char:EOLhyphen"/>ther let there be Rain upon you, nor Fields of Offerings; for there the Shield of the Mighty is vilely caſt away, the
+<pb n="41" facs="tcp:99951:23"/> Shield of</hi> Saul, <hi>as though he had not be anointed with Oyl.</hi>
+            </p>
+            <p>Let the fatal Time and Circumſtances never be forgotten, wherein the Shield of our Defence was vilely caſt away, wherein the Scepter fell from his Hand, and the Crown from his Head, as if he had not been anointed with Oyl.</p>
+            <p>
+               <hi>Ye Daughters of</hi> Iſrael, <hi>weep over</hi> Saul, <hi>who clothed you in Scarlet, with other Delights; who put on Orna<g ref="char:EOLhyphen"/>ments of Gold upon your Apparel.</hi>
+            </p>
+            <p>Weep, O ye Loyal Subjects, over your Mur<g ref="char:EOLhyphen"/>der'd Prince, under whoſe ſhadow ye once enjoy'd all the Bleſſings of a happy Peace.</p>
+            <p>
+               <hi>How are the Mighty fallen, and the Weapons of War periſhed?</hi>
+            </p>
+            <p>Nor did the malice of his Enemies expire with his Life; they purſue and follow the Royal Mar<g ref="char:EOLhyphen"/>tyr into the very ſhades of Death, like the <hi>Philiſtines</hi> that faſtned the dead body of <hi>Saul</hi> to the Walls of <hi>Bethſhan.</hi>
+            </p>
+            <p>They raiſe falſe and ſcandalous Reports of his Religion; they erect him a Statue, with that con<g ref="char:EOLhyphen"/>tumelious Inſcription, <hi>Exit Tyrannus;</hi> and, in de<g ref="char:EOLhyphen"/>ſpight of his Name and Poſterity, paſs an Act for the utter aboliſhing of Monarchy it ſelf.
+<pb n="42" facs="tcp:99951:24"/> And thus I have given you a brief account of his late Majeſties grievous Sufferings, both in his Life, and Death.</p>
+            <p>I come now, for Concluſion, to tell you what Uſe or Improvement we ought to make of the ſtory.</p>
+            <p>And that will either reſpect the time paſt, or time to come.</p>
+            <p>As to the time paſt, we ſhould with ſorrow, and bitterneſs of Spirit, remember, and repent of thoſe crying Sins, and Offences, which provok'd God Almighty to ſuffer his Anointed, our late Sovereign, (of happy memory) to drink ſo deep of the Cup of his Wrath, and humbly deprecate thoſe Judg<g ref="char:EOLhyphen"/>ments, which we have reaſon to fear that Innocent Bloud may yet bring upon us. And this is the duty of this day.</p>
+            <p>As to the time to come, we muſt uſe our utmoſt care and diligence to prevent the like, by yielding all due Homage and Fealty to our Kings, and Re<g ref="char:EOLhyphen"/>ſpect and Obedience to all that are in Authority under them, both in Church and State. And this is the duty of our whole lives.</p>
+            <p>And, that we may herein acquit our ſelves, like good Chriſtians, and Loyal Subjects, we muſt firſt
+<pb n="43" facs="tcp:99951:24"/> of all moſt induſtriouſly avoid thoſe things which have the very leaſt tendency to Diſloyalty, and the very firſt ſteps that lead to Rebellion.</p>
+            <p>Of this ſort are, <hi>Murmuring, and repining againſt the Government;</hi> and ſo are <hi>Tumults,</hi> and <hi>Unlawful Conventions;</hi> and therefore equally to be ſhun'd and avoided.</p>
+            <p>I ſay, we muſt beware of Murmuring, and re<g ref="char:EOLhyphen"/>pining againſt the Government.</p>
+            <p>This is become ſo common, and ordinary at this day, that I dare ſay there are many men ſcarce believe it to be a Sin.</p>
+            <p>Unhandſom Reflections upon His Majeſty, the Church, the State, the Court, the Council, and the Laws too, are the ordinary entertainments of ſome mens Converſation.</p>
+            <p>Every Mechanick now adays pretends to give you an exact account of all the diſtempers and miſtakes in the Government, and their proper helps, and remedies beſides; ſo that to hear him talk, you would think he had ſerv'd his Time to a Privy-Counſellour.</p>
+            <p>Nor is this a practice but of yeſterday; it hath been ſo in all ages, and amongſt all people.</p>
+            <pb n="44" facs="tcp:99951:25"/>
+            <p>
+               <hi>Omni populo ineſt aliquod malignum &amp; querulum in Imperantes,</hi> ſays <hi>Plutarch,</hi> in one of his Tracts.</p>
+            <p>
+               <hi>Men are generally malignant and querulous againſt their Governours.</hi>
+            </p>
+            <p>And though a Prince do nothing that may de<g ref="char:EOLhyphen"/>ſerve it, yet he is ſure to have the hatred of ſome. The moſt exalted Piety and Goodneſs, could never yet boaſt of every mans Love; nor the moſt un<g ref="char:EOLhyphen"/>ſpotted Innocence, ſecure it ſelf againſt the poyſon of Tongues.</p>
+            <p>And here I might add that Tetter, or Scab of the Commonwealth, the <hi>Publiſhing of Scurrilous, and Seditious Pamphlets;</hi> which, in my mind, is a kind of undermining the Government; But let the Au<g ref="char:EOLhyphen"/>thors take heed it do not at laſt fall upon their heads, and oppreſs them; For though the heels of Juſtice be of Lead, yet her hands are of Iron.</p>
+            <p>Therefore, <hi>Curſe not the King, no, not in thy thought; for a Bird of the Air ſhall carry the voyce, and that which hath wings ſhall tell the matter.</hi>
+            </p>
+            <p>It is the wiſeſt of Kings, and the beſt of Preachers Counſel. <hi>Eccleſ.</hi> 10.20.</p>
+            <p n="2">2dly. The ſecond ſtep or advance towards Re<g ref="char:EOLhyphen"/>bellion, are <hi>Tumults,</hi> and <hi>Unlawful Conventions;</hi> and from theſe we ſhould abſtain, as we would from
+<pb n="45" facs="tcp:99951:25"/> the Infection of a Peſt-houſe; for there is <hi>Nothing</hi> (to uſe his late Majeſties own words) <hi>portends more the diſpleaſure of God towards a Nation, than when he ſuffers the confluence and clamours of the vulgar to paſs all boundaries of Laws, and reverence to Autho<g ref="char:EOLhyphen"/>rity.</hi>
+            </p>
+            <p>And that which ſhould the more oblige us in this caſe to ſtand upon our Guard, is the fatal preva<g ref="char:EOLhyphen"/>lence, and inſinuation of example.</p>
+            <p>For there is nothing more common, than for men to follow a multitude to do Evil; and like Beaſts march on with the Herd, without ever en<g ref="char:EOLhyphen"/>quiring whither they go.</p>
+            <p>And beſides, in ſuch intemperate Heats, and Mutinies, men are apt to do thoſe things all toge<g ref="char:EOLhyphen"/>ther, which ſingly the very worſt of them would be aſham'd of; for every man fancies himſelf ſhel<g ref="char:EOLhyphen"/>ter'd in the Croud, and a great fault divided into many pieces, they think will be but every one a little.</p>
+            <p>To Tumults I added all other <hi>Unlawful Meetings</hi> and <hi>Conventicles</hi> whatſoever, yea, though they be under pretence of Religion it ſelf.</p>
+            <p>For beſides that thoſe are for the moſt part Schools of Sedition, and Nurſeries of Schiſm, the
+<pb n="46" facs="tcp:99951:26"/> very act of <hi>Meeting,</hi> and <hi>Convening</hi> it ſelf, is a viola<g ref="char:EOLhyphen"/>tion, and breach of the Law, and therefore by all means to be avoided.</p>
+            <p>Of both theſe, to wit, Mutinying againſt their Prince, and Invading the Prieſts Office, <hi>Korah</hi> and his Company ſtand a ſad (but fatally pertinent) Example unto all Poſterity.</p>
+            <p>Their ſtory is <hi>Numb.</hi> 16. In verſe 3. you have their Sin. <hi>And they gathered themſelves together againſt</hi> Moſes, <hi>and againſt</hi> Aaron, <hi>and ſaid unto them, Ye take too much upon you.</hi>
+            </p>
+            <p>Their Puniſhment you have in the 31, 32, 33. <hi>And it came to paſs, as</hi> Moſes <hi>had made an end of ſpea<g ref="char:EOLhyphen"/>king all theſe words, that the ground clave aſunder that was under them,</hi>
+            </p>
+            <p>
+               <hi>And the Earth opened her mouth, and ſwallowed them up, and their Houſes, and all the men that appertained unto</hi> Korah; <hi>and all their Goods.</hi>
+            </p>
+            <p>
+               <hi>They, and all that appertained to them, went down a<g ref="char:EOLhyphen"/>live into the Pit; and the Earth cloſed upon them, and they periſhed from among the Congregation.</hi>
+            </p>
+            <p>And I know not what better Counſel I can give you, either in regard of <hi>Tumults,</hi> or <hi>Unlawful Con<g ref="char:EOLhyphen"/>ventions,</hi> than that which <hi>Moſes</hi> gave the Children of <hi>Iſrael,</hi> upon that occaſion of the Rebellion of <hi>Ko<g ref="char:EOLhyphen"/>rah,</hi>
+               <pb n="47" facs="tcp:99951:26"/> in the 26. verſe of the ſame Chapter: <hi>Depart, I pray you, from the Tents of theſe wicked men, and touch nothing of theirs, leſt you be conſumed in all their Sins.</hi>
+            </p>
+            <p>And, as we muſt avoid thoſe <hi>Things,</hi> ſo muſt we alſo avoid thoſe <hi>Perſons,</hi> which lead towards Rebellion.</p>
+            <p>I mean, we muſt have a care of the Deſigns and Inſinuations of thoſe covetous and ambitious men, who are always making a Party againſt the Go<g ref="char:EOLhyphen"/>verrnment; and that for no other reaſon, but only to gratifie their own infatiable and boundleſs deſires of Riches and Honour.</p>
+            <p>The <hi>Tools</hi> which theſe <hi>State-wrights</hi> commonly <hi>work</hi> with; the <hi>Baits</hi> which cover their <hi>Hooks,</hi> are for the moſt part, the Preſervation of <hi>Religion,</hi> and the Vindication of <hi>Liberty.</hi>
+            </p>
+            <p>With theſe two ſpecious pretences they draw in not only the wicked and profligate Deſperado's of their own Principles; but alſo the ſimple, ſhort-ſighted, well-meaning Multitude, who, ten to one, never know where they are, till there is no room left them them to retreat; Nor underſtand rightly what they are doing, till 'tis too late to retract.</p>
+            <pb n="48" facs="tcp:99951:27"/>
+            <p>And this was the very caſe of a great part of the Kingdom, in the late <hi>Civil Wars.</hi>
+            </p>
+            <p>They cry'd ſo long upon Religion, that at laſt they conjur'd her up in ſo many ſhapes, and there appeared ſo many <hi>New Lights,</hi> that the undiſcer<g ref="char:EOLhyphen"/>ning multitude could not tell eaſily which was the <hi>Old.</hi>
+            </p>
+            <p>They were affraid of the <hi>Re-establiſhing of Super<g ref="char:EOLhyphen"/>ſtition, and Popery;</hi> and look'd upon our Churches decent and uſeful Ceremonies, as <hi>Dangerous Inno<g ref="char:EOLhyphen"/>vations, and Introductions to Idolatry.</hi>
+            </p>
+            <p>And in the State, the fancy'd endeavours of an <hi>Arbitrary Government,</hi> and advancing a <hi>Boundleſs Prerogative,</hi> even to the deſpoyling the Subject, and robbing him of his Birth-Right, the benefit of the Laws.</p>
+            <p>And, to free themſelves of theſe <hi>Fears</hi> and <hi>Jea<g ref="char:EOLhyphen"/>louſies,</hi> they ran out into an open Rebellion; whereby, inſtead of ſettling and confirming, they ruine and overthrow the very Foundations of both <hi>Religion</hi> and <hi>Liberty.</hi>
+            </p>
+            <p>Alaſs! their Ignorance in both.</p>
+            <p>One would think that the Excellency of our Re<g ref="char:EOLhyphen"/>ligion, and the great Prudence and Sincerity us'd in the Reformation, might have ſatisfied any conſide<g ref="char:EOLhyphen"/>ring
+<pb n="49" facs="tcp:99951:27"/> man, that there was no danger of our returning to the Communion of the Church of <hi>Rome;</hi> Or, if nothing elſe would, yet (methinks) the inconſiſtence of the Intereſt of our Kings with ſubjection to that See, might have perſwaded any man in his wits, that they would never ſubmit themſelves again to that Yoke, which neither we, nor our Fore-fathers, have been able to bear.</p>
+            <p>And again, for <hi>Liberty,</hi> it can never be for the <hi>Publick Good,</hi> to aſſert it by <hi>Subjects</hi> taking up <hi>Arms</hi> againſt their <hi>Prince,</hi> becauſe ſome ambitious deſign<g ref="char:EOLhyphen"/>ning men are always ſure in ſuch caſes to make the abuſed People their own Slaves.</p>
+            <p>This truth was well known to ſome at the begin<g ref="char:EOLhyphen"/>ning of our Troubles, though their endeavours to infuſe it into the diſtemper'd peoples minds, had the fate of <hi>Caſſandra</hi>'s Predictions, <hi>To hit the Truth, but want Belief,</hi> till a coſtly, and too late experience, had vouch'd it.</p>
+            <p>So that, upon the upſhot, it appeared, that all the fair pretences of their Leading-men, were but a miſerable maſque and cover of a Damnable Re<g ref="char:EOLhyphen"/>bellion; and their towering, high-flown Religion, nothing but down-right Hypocriſie, and deep Diſſi<g ref="char:EOLhyphen"/>mulation.</p>
+            <pb n="49" facs="tcp:99951:28"/>
+            <p>This was but too plain to every body, upon their refuſal of His Majeſty's large Conceſſions, in the laſt Treaty he had with them.</p>
+            <p>Every mans eyes were then opened, and they ſaw manifeſtly, that the great deſigners and managers of that Rebllion, aim'd at nothing but his Crown and Dignity; and that the People had all this while been deluded with appearances, and cheated with Golden Dreams. So true is that of the Prophet, even in this ſenſe, 1 <hi>Sam.</hi> 15.23. <hi>Rebellion is as the Sin of Witchcraft.</hi>
+            </p>
+            <p>God deliver us from her Enchantments, and accept the Bloud of his dear Son <hi>Jeſus Chriſt,</hi> as a perfect attonement for that Royal Innocent Bloud, wherewith our Land was, as this day, ſtain'd and polluted; Bleſs the Kings Majeſty with a long and proſperous Reign; Grant us Peace and Truth in theſe our days, both in Church and State; Give us all one Loyal and Obedient heart; Compoſe all our Unnatural Heats and Diviſions; Deliver us out of the hands of all our Enemies; and grant, <hi>that thoſe Evils which the craft and ſubtilty of the Devil or Man worketh againſt us, be brought to nought; and by the providence of his Goodneſs they may be diſperſed, that we his Servants, being hurt by no Perſecutions, may ever
+<pb n="50" facs="tcp:99951:28"/> more give thanks unto him in his Holy Church, through Jeſus Chriſt our Lord:</hi> To whom, with the Father, and the Holy Ghoſt the Comforter, be all Honour and Glory, now and evermore,</p>
+            <closer>Amen.</closer>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
